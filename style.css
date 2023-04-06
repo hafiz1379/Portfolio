@@ -19,7 +19,7 @@ body {
 .header {
     background-color: #fff;
     width: 100%;
-    height: 666px;
+    height: 750px;
     border-radius: 0 0 0 80px;
 }
 
@@ -66,13 +66,13 @@ body {
 
 .header-bg {
     width: 100%;
-    height: 506px;
-    background: url(Images/Header\ bg@2x.png);
-    background-color: #fff;
+    height: 75%;
+    background-image: url(Images/Header\ bg@2x.png);
     border-radius: 0 0 0 76px;
-    background-size: contain;
+    background-size:  contain;
     background-repeat: no-repeat;
-    margin-top: -330px;
+    margin-top: -350px;
+    margin-left: 30px;
 }
 
 .header-bottom__content {
