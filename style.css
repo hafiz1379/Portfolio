@@ -131,13 +131,14 @@ body {
     height: 4208px;
     width: 1440px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .work1 {
     width: 956px;
     height: 456px;
-    margin: 142px;
+    margin: 142px auto 0;
     background-color: #fff;
     border: 1px solid #DFE1E6;
     border-radius: 24px;
@@ -147,12 +148,12 @@ body {
 
 .work1-img img {
     padding: 24px;
-    width: 544px;
+    width: 478px;
     height: 448px;
 }
 
 .work1-content {
-    width: 412px;
+    width: 478px;
     padding: 24px 22px 27px 22px;
 }
 
@@ -173,25 +174,30 @@ body {
     margin: 18px 0;
 }
 
-.work_list, .work_list2 {
+.work_list, .work_list2, .work_list3 {
     padding-right: 1px;
     padding-left: 1px;
     font-size: 12px;
+    color:#344563;    ;
 }
 
 .work_list2 {
     height: 6px;
     width: 6px;
     border-radius: 50%;
-    background-color: #091E42;
+    background-color: #C1C7D0;
     margin: auto;
+}
+
+.work_list3 {
+    color: #C1C7D0;
 }
 
 .work1_text {
     margin-top: 20px;
     color: #344563;
     font-weight: 400;
-    font-size: 11.5px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -223,6 +229,17 @@ body {
     padding: px 12px 4px 0;
     font-weight: 500;
     width: 90px;
+    background: #EBEBFF;
+    height: 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin:  15px 5px 30px 0px;
+}
+
+#ruby {
+    padding: px 12px 4px 0;
+    font-weight: 500;
+    width: 110px;
     background: #EBEBFF;
     height: 24px;
     border-radius: 8px;
