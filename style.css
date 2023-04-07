@@ -4,19 +4,6 @@
   scroll-behavior: smooth;
 }
 
-:root {
-  #6070ff: #6070ff;
-  #396df2: #396df2;
-  #344563;: #344563;
-  #172b4d: #172b4d;
-  #f7f7f9: #f7f7f9;
-  #fff: #fff;
-  #000: #000;
-  #2230d
-: #2230d2;
-  #b3bac5: #b3bac5;
-}
-
 body,
 h1,
 h2,
@@ -44,8 +31,8 @@ li {
 
 .page {
   font-family: "Poppins", sans-serif;
-  color:#344563;
-  background-color:#f7f7f9;
+  color: #344563;
+  background-color: #f7f7f9;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -56,8 +43,8 @@ li {
 /* General style classes */
 
 .button:hover {
-  background-color:#6070ff;
-  color:#fff;
+  background-color: #6070ff;
+  color: #fff;
   border: 1px solid#6070ff;
 }
 
@@ -70,7 +57,7 @@ li {
 /* Header Section */
 
 .header {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .header-wrapper {
@@ -84,7 +71,7 @@ li {
   font-weight: 700;
   font-size: 18px;
   line-height: 111%;
-  color:#6070ff;
+  color: #6070ff;
 }
 
 .header__menu-opener {
@@ -105,7 +92,7 @@ li {
 /* Hero Section */
 
 .hero {
-  background:#fff;
+  background: #fff;
   background-image: url(./images/hero-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,7 +203,7 @@ li {
 }
 
 .project__language__item {
-  color:#6070ff;
+  color: #6070ff;
   font-weight: 500;
   font-size: 12px;
   line-height: 133%;
