@@ -78,7 +78,7 @@ li {
   width: 18px;
   height: 12px;
   margin-right: 8px;
-  background: url(./images/menu.svg) no-repeat center;
+  background: url(./pictures/menu.svg) no-repeat center;
   background-size: cover;
 }
 
@@ -92,7 +92,7 @@ li {
 
 .hero {
   background: #fff;
-  background-image: url(./images/hero-bg.svg);
+  background-image: url(./pictures/hero-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 75px;
@@ -291,7 +291,7 @@ li {
   display: block;
   width: 14px;
   height: 8px;
-  background: url(./images/arrow-down.svg) no-repeat center;
+  background: url(./pictures/arrow-down.svg) no-repeat center;
   background-size: cover;
   margin-right: 28px;
 }
@@ -300,7 +300,7 @@ li {
   display: block;
   width: 8px;
   height: 14px;
-  background: url(./images/arrow-right.svg) no-repeat center;
+  background: url(./pictures/arrow-right.svg) no-repeat center;
   background-size: cover;
   margin-right: 28px;
 }
@@ -332,7 +332,7 @@ li {
 /* Footer - Contact Section */
 
 .contact {
-  background-image: url(./images/contact-form-bg.svg);
+  background-image: url(./pictures/contact-form-bg.svg);
   background-repeat: no-repeat;
   background-position: right 0;
   background-color: #6070ff;
@@ -470,7 +470,7 @@ li {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     column-gap: 24px;
-    background-image: url(./images/hero-background.svg);
+    background-image: url(./pictures/hero-background.svg);
     background-size: contain;
   }
 
@@ -590,7 +590,7 @@ li {
 
   .contact {
     padding: 142px 74px 127px;
-    background-image: url(./images/contact-form__desktop-bg.svg);
+    background-image: url(./pictures/contact-form__desktop-bg.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
