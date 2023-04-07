@@ -1,308 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Desktop Version</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,800;1,100&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-</head>
-<body>
-    <!-- Start header -->
-    <div class="container">
-        <header class="header" id="portfolio">
-            <div class="header-top">
-                <div class="header-top__logo">
-                    <img class="header-top__img" src="Images/My Logo.png" alt="header logo">
-                </div>
-                <nav class="header-top__items">
-                    <ul class="header-top__menu">
-                        <li class="item"><a class="items__link" href="#portfolio">Portfolio</a></li>
-                        <li class="item"><a class="items__link" href="#aboutme">About</a></li>
-                        <li class="item"><a class="items__link" href="#cotactme">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header-bg">
-        <div class="header-bottom">
-            <div class="header-bottom__content">
-                <h1 class="header-botton__title">I’m Hafizullah.<br>
-                    Glad to see you!</h1>
-                    <p class="header-bottom__text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-                    <div class="social-media">
-                        <h2 class="social-media__title">LET’S CONNECT</h2>
-                        <ul class="icon">
-                            <li>
-                              <a href="https://twitter.com/steven_hakeem">
-                                <i class="fa-brands fa-twitter"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.linkedin.com/in/steven-wafeek-b629341b6/">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                              </a>
-                            </li>
-                            <li class="social-icon"><a href="#"><i class="fa-solid fa-m" target="_blank"
-                                aria-label="Medium"></i></a>
-                          </li>
-                            <li>
-                              <a href="https://github.com/StevenWafeek">
-                                <i class="fa-brands fa-github"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i class="fa-regular fa-hand-peace fa-flip-horizontal"></i>
-                              </a>
-                            </li>
-                            
-                          </ul>
-                    </div>
-                </div>
-                </div>
-        </div>
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body class="page">
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header-wrapper">
+        <a href="/" class="header__logo">
+          <h3 class="header__logo-text">
+            My Logo
+          </h3>
+        </a>
+
+        <nav class="header__nav-mobile">
+          <a href="#menu" class="header__menu-opener"></a>
+        </nav>
+
+        <nav class="header__nav-desktop">
+          <ul class="menu__list">
+            <il class="menu__items">
+              <a href="#portfolio" class="menu__links">Portfolio</a>
+            </il>
+
+            <il class="menu__items">
+              <a href="#about" class="menu__links">About</a>
+            </il>
+
+            <il class="menu__items">
+              <a href="#contact" class="menu__links">Contact</a>
+            </il>
+          </ul>
+        </nav>
+      </div>
     </header>
-    </div>
-    <!-- End header -->
 
-    <!-- Start project cards -->
-    <div class="container2">
-    <section class="project-cards">
-        <section class="work1">
-            <div class="work1-img">
-                <img src="Images/work1.png" alt="Work 1 image">
-            </div>
-            <div class="work1-content">
-                <div class="work1-content__head">
-                    <h2 class="work1_header">Tonic</h2>
-                    <ul class="work_lists">
-                        <li class="work_list">Canopy</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">Full Stack Dev</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">2023</li>
-                    </ul>
-                </div>
-                <p class="work1_text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="work1-2nd_lists">
-                    <li class="work1-2nd_list"><a href="#">html</a></li>
-                    <li class="work1-2nd_list"><a href="#">css</a></li>
-                    <li class="work1-2nd_list" id="js"><a href="#">javascript</a></li>
-                </ul>
-                <div class="work1-button">
-                    <button class="work1-btn">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <section class="work1">
-            <div class="work1-content">
-                <div class="work1-content__head">
-                    <h2 class="work1_header">Multi-Post Stories</h2>
-                    <ul class="work_lists">
-                        <li class="work_list">Facebook</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">Full Stack Dev</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">2023</li>
-                    </ul>
-                </div>
-                <p class="work1_text">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-                <ul class="work1-2nd_lists">
-                    <li class="work1-2nd_list"><a href="#">html</a></li>
-                    <li class="work1-2nd_list" id="ruby"><a href="#">Ruby on rails</a></li>
-                    <li class="work1-2nd_list"><a href="#">css</a></li>
-                    <li class="work1-2nd_list" id="js"><a href="#">javascript</a></li>
-                </ul>
-                <div class="work1-button">
-                    <button class="work1-btn">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="work1-img">
-                <img src="Images/work2.png" alt="Work 1 image">
-            </div>
-        </section>
-        <section class="work1">
-            <div class="work1-img">
-                <img src="Images/work3.png" alt="Work 1 image">
-            </div>
-            <div class="work1-content">
-                <div class="work1-content__head">
-                    <h2 class="work1_header">Facebook 360</h2>
-                    <ul class="work_lists">
-                        <li class="work_list">Facebook</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">Full Stack Dev</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">2023</li>
-                    </ul>
-                </div>
-                <p class="work1_text">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-                <ul class="work1-2nd_lists">
-                    <li class="work1-2nd_list"><a href="#">html</a></li>
-                    <li class="work1-2nd_list" id="ruby"><a href="#">Ruby on rails</a></li>
-                    <li class="work1-2nd_list"><a href="#">css</a></li>
-                    <li class="work1-2nd_list" id="js"><a href="#">javascript</a></li>
-                </ul>
-                <div class="work1-button">
-                    <button class="work1-btn">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <section class="work1">
-            <div class="work1-content">
-                <div class="work1-content__head">
-                    <h2 class="work1_header">Uber Navigation</h2>
-                    <ul class="work_lists">
-                        <li class="work_list">Uber</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">Lead Developer</li>
-                        <li class="work_list2"></li>
-                        <li class="work_list3">2023</li>
-                    </ul>
-                </div>
-                <p class="work1_text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                <ul class="work1-2nd_lists">
-                    <li class="work1-2nd_list"><a href="#">html</a></li>
-                    <li class="work1-2nd_list"><a href="#">css</a></li>
-                    <li class="work1-2nd_list" id="js"><a href="#">javascript</a></li>
-                </ul>
-                <div class="work1-button">
-                    <button class="work1-btn">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="work1-img">
-                <img src="Images/work4.png" alt="Work 1 image">
-            </div>
-        </section>
+    <!-- Top Section -->
 
+    <main>
 
-<!-- End project cards -->
+      <!-- Bottom Section -->
 
-<!-- Start About -->
-
-        </section>
-</div>
-<div class="container">
-    <section class="about" id="aboutme">
-        <div class="about-container">
-        <div class="left-block">
-            <div class="left-block__text">
-                <div class="left-block__title"></div>
-                <h2>About Myself</h2>
-                <div class="left-block__bio">
-                    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-                    <div class="social-media2">
-                        <h2 class="social-media__title">LET’S CONNECT</h2>
-                        <ul class="icon2">
-                            <li>
-                              <a href="https://github.com/StevenWafeek">
-                                <i class="fa-brands fa-github"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.linkedin.com/in/steven-wafeek-b629341b6/">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <i class="fa-regular fa-hand-peace fa-flip-horizontal"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/steven_hakeem">
-                                <i class="fa-brands fa-twitter"></i>
-                              </a>
-                            </li>
-                            <li class="social-icon"><a href="#"><i class="fa-solid fa-m" target="_blank"
-                                aria-label="Medium"></i></a>
-                          </li>
-                          </ul>
-                    </div>
-                    <div class="about-button">
-                        <button class="about-btn">
-                            <a href="#">Get my resume</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="skills">
-            <ul class="lang" >
-                <li class="lang">
-                    <div class="languege">
-                        <h2>Language</h2>
-                        <i id="fa1" class="fa fa-angle-down" aria-hidden="true"></i>
-                    </div>
-                    <div class="contain">
-                        <ul class="about-lan">
-                            <li class="con"><img src="./images/Ellipse 1.png" alt="JavaScript"> JavaScript</li>
-                            <li class="con"><img src="./images/Ellipse 1 (1).png" alt="HTML"> HTML</li>
-                            <li class="con"><img src="./images/Ellipse 1 (2).png" alt="CSS">CSS</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="lang-fr">
-                    <div class="framework">
-                        <h2>Frameworks</h2>
-                        <i id="fa2" class="fa fa-angle-right" aria-hidden="true"></i>
-                    </div>
-                </li>
-                <li class="lang">
-                    <div class="skill-ab">
-                        <h2>Skills</h2>
-                        <i id="fa3" class="fa fa-angle-right" aria-hidden="true"></i>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- End About -->
     
-    <!-- Start contact form -->
-    <section class="contact-form" id="cotactme">
-        <img src="Images/contact form background shapes@2x.png" alt="background image" class="formbg">
-        <div class="contact-form__body">
-            <div class="contact-form__title">
-                <h4>Contact me</h4>
-            </div>
-            <div class="contact-form__text">
-                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
-            </div>
-            <div class="inputs">
-                <form action="https://formspree.io/f/mjvdadbe" method="POST" class="form" id="contact_action">
-                    <input type="text" class="item1" name="name" id="name" placeholder="Lorem Ipsum" required maxlength="30" >
-                    <input type="email" class="item1" name="email" id="email" placeholder="loramipsum@gmail.com" required>
-                    <textarea name="message" id="message" class="item3" placeholder="Write your message here" maxlength="500" required></textarea>
-                    <div class="con_btn">
-                        <button class="formbtn" type="submit">Get in touch</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+      <section class="hero">
+        <div class="hero-wrapper">
+          <h1 class="hero__title">
+            I'm Hafizullah.<br>Glad to see you!
+          </h1>
 
-</body>
+          <p class="hero__description">
+            I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
+          </p>
+
+          <p class="connect-text">
+            Let's connect
+          </p>
+
+          <ul class="social-icons">
+            <li>
+              <a href="https://twitter.com/HajnalOltyan">
+                <img src="./images/twitter.svg" alt="Twitter">
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://www.linkedin.com/in/hajnalka-oltyan/">
+                <img src="./images/linkedin.svg" alt="LinkedIn">
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://medium.com/">
+                <img src="./images/medium.svg" alt="Medium">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/hajnaloltyan">
+                <img src="./images/github.svg" alt="GitHub">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.angellist.com/">
+                <img src="./images/angellist.svg" alt="AngelList">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Work Section -->
+
+      <section class="work" id="portfolio">
+
+        <!-- Card 1 -->
+
+        <article class="project">
+          <img 
+            src="./images/work1.png" 
+            alt="Work-1"
+            class="project__image"
+          >
+
+          <div class="project__details">
+            <h3 class="project__title">
+              Tonic
+            </h3>
+
+            <div class="project-creator">
+              <h4 class="project-creator__name">
+                Canopy
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+                
+                Back End Dev
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+
+                2015
+              </h4>
+            </div>
+
+            <p class="project__description"">
+              A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+
+            <ul class="project__languages">
+              <li class="project__language__item">HTML</li>
+              <li class="project__language__item">CSS</li>
+              <li class="project__language__item">JavaScript</li>
+            </ul>
+
+            <a href="/" class="project__button button">
+              See project
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+
+        <article class="project row-reverse">
+          <img 
+            src="./images/work2.png" 
+            alt="Work-1"
+            class="project__image"
+          >
+          <div class="project__details">
+            <h3 class="project__title">
+              Multi-Post Stories
+            </h3>
+
+            <div class="project-creator">
+              <h4 class="project-creator__name">
+                Canopy
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+                
+                Back End Dev
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+
+                2015
+              </h4>
+            </div>
+
+            <p class="project__description"">
+                Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+            </p>
+
+            <ul class="project__languages">
+              <li class="project__language__item">HTML</li>
+              <li class="project__language__item">CSS</li>
+              <li class="project__language__item">Ruby on rails</li>
+              <li class="project__language__item">JavaScript</li>
+            </ul>
+
+            <a href="/" class="project__button button">
+              See project
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+
+        <article class="project">
+          <img
+            src="./images/work3.png" 
+            alt="Work-1"
+            class="project__image"
+          >
+          <div class="project__details">
+            <h3 class="project__title">
+              Tonic
+            </h3>
+
+            <div class="project-creator">
+              <h4 class="project-creator__name">
+                Canopy
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+                
+                Back End Dev
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+
+                2015
+              </h4>
+            </div>
+
+            <p class="project__description"">
+                Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+            </p>
+
+            <ul class="project__languages">
+              <li class="project__language__item">HTML</li>
+              <li class="project__language__item">CSS</li>
+              <li class="project__language__item">Ruby on rails</li>
+              <li class="project__language__item">JavaScript</li>
+            </ul>
+
+            <a href="/" class="project__button button">
+              See project
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+
+        <article class="project row-reverse">
+          <img
+            src="./images/work4.png" 
+            alt="Work-1"
+            class="project__image"
+          >
+          <div class="project__details">
+            <h3 class="project__title">
+              Multi-Post Stories
+            </h3>
+
+            <div class="project-creator">
+              <h4 class="project-creator__name">
+                Canopy
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+                
+                Back End Dev
+              </h4>
+
+              <h4 class="project-creator__details">
+                <span class="circle">●</span>
+
+                2015
+              </h4>
+            </div>
+
+            <p class="project__description"">
+                A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+            </p>
+
+            <ul class="project__languages">
+              <li class="project__language__item">HTML</li>
+              <li class="project__language__item">CSS</li>
+              <li class="project__language__item">JavaScript</li>
+            </ul>
+
+            <a href="/" class="project__button button">
+              See project
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- About Section -->
+
+      <section class="about" id="about">
+        <div class="myself">
+          <h2 class="about__title">
+            About Myself
+          </h2>
+
+          <p>
+            I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
+          </p>
+
+          <p class="connect-text">
+            Let's connect
+          </p>
+
+          <ul class="about__social-icons">
+            <li>
+              <a href="https://github.com">
+                <img src="./images/github.svg" alt="GitHub">
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://www.linkedin.com">
+                <img src="./images/linkedin.svg" alt="LinkedIn">
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://www.angellist.com/">
+                <img src="./images/angellist.svg" alt="AngelList">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com">
+                <img src="./images/twitter.svg" alt="Twitter">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://medium.com/">
+                <img src="./images/medium.svg" alt="Medium">
+              </a>
+            </li>
+          </ul>
+
+          <a 
+            class="about-resume button"
+            href=".#" 
+            download=""
+          >
+            Get my Resume
+          </a>
+        </div>
+
+        <div class="accordion">
+          <span class="accordion__top">
+            <h3 class="accordion__title">Languages</h3>
+            <a href="#" class="accordion__arrow-down"></a>
+          </span>
+
+          <ul class="accordion__elements">
+            <li class="accordion__item">
+              <img src="./images/Ellipse 1.png" alt="Javascript">
+  
+              <p>JavaScript</p>
+            </li>
+  
+            <li class="accordion__item">
+              <img src="./images/Ellipse 1 (1).png" alt="HTML">
+  
+              <p>HTML</p>
+            </li>
+  
+            <li class="accordion__item">
+              <img src="./images/Ellipse 1 (2).png" alt="CSS">
+  
+              <p>CSS</p>
+            </li>
+          </ul>
+
+          <span class="accordion__top accordion__closed">
+            <h3 class="accordion__title">Frameworks</h3>
+            <a href="#accordion" class="accordion__arrow-right"></a>
+          </span>
+
+          <span class="accordion__top accordion__closed">
+            <h3 class="accordion__title">Skills</h3>
+            <a href="#accordion" class="accordion__arrow-right"></a>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer - Contact Section -->
+
+    <footer class="contact" id="contact">
+
+      <div class="contact-top">
+        <h2 class="contact__title">
+          Contact me
+        </h2>
+
+        <p class="contact__description">
+          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+          I'd love to help with it!
+        </p>
+      </div>
+
+      <form 
+        action="https://formspree.io/f/mjvdadbe" 
+        method="POST"
+        class="contact__form"
+      >
+        <input 
+          type="text" 
+          name="name" 
+          placeholder="Full name" 
+          maxlength="30" 
+          required
+          class="form__input"
+        >
+
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Email address" 
+          required
+          class="form__input"
+        >
+
+        <textarea 
+        name="message" 
+        cols="30" 
+        rows="5"
+        placeholder="Write your message here..."
+        required
+        maxlength="500"
+        class="form__textarea"
+        ></textarea>
+
+        <button 
+          type="submit"
+          class="form__button"
+        >
+          Get in touch
+        </button>
+      </form>
+
+    </footer>
+  </body>
 </html>
