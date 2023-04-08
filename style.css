@@ -45,6 +45,9 @@ li {
   background-color: #6070ff;
   color: #fff;
   border: 1px solid#6070ff;
+  transition: #05e9f5 1s ease-in 0.5s;
+  width: 140px;
+  height: 30px;
 }
 
 .button:active {
