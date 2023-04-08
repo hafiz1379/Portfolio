@@ -160,11 +160,18 @@ li {
 .project__image {
   width: 100%;
   transition: all 0.5s ease-in-out;
+<<<<<<< Portfolio-Desktop-Version-(pair-program)
 }
 
 .project__image:hover {
   transform: scale(1.1);
+=======
+>>>>>>> main
 }
+
+.project__image:hover {
+    transform: scale(1.1);
+  }
 
 .project__details {
   width: 100%;
