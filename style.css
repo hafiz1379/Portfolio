@@ -472,6 +472,8 @@ li {
 
   .menu__links:hover {
     border-bottom: 3px solid #6070ff;
+    font-size: 18px;
+    transform: scale(1,1);
   }
 
   /* Main Section */
