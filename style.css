@@ -135,7 +135,6 @@ li {
   align-items: baseline;
 }
 
-
 /* Work Section */
 
 .work {
@@ -478,7 +477,7 @@ li {
   .menu__links:hover {
     border-bottom: 3px solid #6070ff;
     font-size: 18px;
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 
   /* Main Section */
@@ -534,7 +533,6 @@ li {
     width: 50%;
   }
 
-  
   .project__details {
     width: 50%;
   }
