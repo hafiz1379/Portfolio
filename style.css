@@ -408,10 +408,11 @@ li {
 
 .form__button:hover {
   background: #6070ff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
+  transform: scale(1,1);
 }
 
 .form__button:active {
@@ -518,6 +519,7 @@ li {
     width: 50%;
   }
 
+  
   .project__details {
     width: 50%;
   }
