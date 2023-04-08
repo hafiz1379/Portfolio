@@ -419,7 +419,8 @@ li {
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  transform: scale(1,1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 .form__button:active {
