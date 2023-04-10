@@ -72,6 +72,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+This is the [live demo link](https://hafiz1379.github.io/Portfolio-desktop-version/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
