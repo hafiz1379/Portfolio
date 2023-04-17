@@ -46,6 +46,7 @@
 1- HTML
 2- CSS
 3- Linters
+4- JavaScript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -65,6 +66,7 @@
 
 - Added index.html file.
 - Added style.css file.
+- Added script.js file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,6 +152,7 @@ You can deploy this project using:
 
 - [] add new tags.
 - [] add new styles.
+- [] add new features using JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
