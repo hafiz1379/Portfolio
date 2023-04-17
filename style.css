@@ -58,7 +58,6 @@ li {
 
 /* Header Section */
 
-
 .header {
   background-color: #fff;
 }
@@ -102,7 +101,6 @@ li {
   background: url(./pictures/x-symbol-svgrepo-com.svg) no-repeat center;
   background-size: cover;
 }
-
 
 .header__nav-desktop {
   display: none;
