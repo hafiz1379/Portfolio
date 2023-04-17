@@ -68,7 +68,7 @@ li {
 }
 
 .header-wrapper {
-  display: flex;
+  display: ;
   justify-content: space-between;
   align-items: center;
   padding: 26px 24px;
@@ -82,7 +82,7 @@ li {
 }
 
 .header__logo-text-white {
-  color: var(--white);
+  color: ;
 }
 
 .header__menu-opener {
@@ -132,10 +132,10 @@ li {
 }
 
 .mobile-menu__links {
-  line-height: 44px var(--white);
+  line-height: 44px #fff;
   font-size: 32px;
   font-weight: 600;
-  color: var(--white);
+  color: #fff;
 }
 
 /* Main */
