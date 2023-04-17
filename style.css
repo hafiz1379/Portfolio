@@ -58,8 +58,13 @@ li {
 
 /* Header Section */
 
+
 .header {
   background-color: #fff;
+}
+
+.header--open-menu {
+  overflow: hidden;
 }
 
 .header-wrapper {
@@ -76,10 +81,8 @@ li {
   color: #6070ff;
 }
 
-.header__logo-text:hover {
-  transform: scale(1.3);
-  transition: transform 0.3s ease-in-out;
-  color: #424cac;
+.header__logo-text-white {
+  color: var(--white);
 }
 
 .header__menu-opener {
@@ -91,8 +94,48 @@ li {
   background-size: cover;
 }
 
+.header__menu-closer {
+  display: block;
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+  background: url(./pictures/x-symbol-svgrepo-com.svg) no-repeat center;
+  background-size: cover;
+}
+
+
 .header__nav-desktop {
   display: none;
+}
+
+.mobile-menu-wrapper {
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+}
+
+.mobile-menu-wrapper:target {
+  transform: translateX(0%);
+}
+
+.mobile-menu {
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mobile-menu__links {
+  line-height: 44px var(--white);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--white);
 }
 
 /* Main */
