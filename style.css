@@ -73,17 +73,6 @@ li {
   padding: 26px 24px;
 }
 
-.header__logo-text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 111%;
-  color: #6070ff;
-}
-
-.header__logo-text-white {
-  color: #fff;
-}
-
 .header__menu-opener {
   display: block;
   width: 18px;
@@ -97,9 +86,17 @@ li {
   display: block;
   width: 18px;
   height: 12px;
-  margin-right: 8px;
+  float: right;
   background: url(./pictures/x-symbol-svgrepo-com.svg) no-repeat center;
   background-size: cover;
+}
+
+.header-wrapper2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 26px 24px;
+  margin-top: 25px;
 }
 
 .header__nav-desktop {
