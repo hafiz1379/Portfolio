@@ -36,7 +36,7 @@ const projectCard = [
   },
 
   {
-    id: "",
+    id: "1",
     image: "./images/work-1.png",
     title: "Multi-Post Stories",
     creatorName: "Facebook",
