@@ -10,7 +10,7 @@ window.addEventListener("hashchange", () => {
 
 const projectCard = [
   {
-    id: "0",
+    id: "",
     image: "./images/work-0.png",
     title: "Tonic",
     creatorName: "Canopy",
@@ -36,7 +36,7 @@ const projectCard = [
   },
 
   {
-    id: "1",
+    id: "",
     image: "./images/work-1.png",
     title: "Multi-Post Stories",
     creatorName: "Facebook",
