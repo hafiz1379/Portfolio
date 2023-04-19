@@ -698,6 +698,8 @@ hr {
   .modal-card {
     padding: 24px;
     margin: 0 auto;
+    width: 77%;
+    height: 100vh;
   }
 
   .modal__details {
@@ -711,17 +713,19 @@ hr {
   .modal__image-container {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    height: 32vh;
+    height: 45vh;
     overflow: hidden;
   }
 
   .modal__image {
-    width: inherit;
-    height: inherit;
-    overflow-clip-margin: inherit;
-    overflow: hidden;
+    object-fit: cover;
+    width: 90%;
+    object-position: right  -79px;
+    /* height: 100%; */
+    /* overflow-clip-margin: inherit;
+    overflow: hidden; */
   }
 
   .modal__desktop-wrapper {
@@ -746,7 +750,7 @@ hr {
   .modal-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 7px;
+    padding: 2px;
   }
 
   .modal__button {
@@ -756,7 +760,8 @@ hr {
     flex-wrap: nowrap;
     text-align: center;
     width: 42%;
-    padding: 8px;
+    padding: 8px 6px;
+    font-size: 0.77rem;
   }
 
   /* About Section */
