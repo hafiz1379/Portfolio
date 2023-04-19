@@ -723,9 +723,6 @@ hr {
     object-fit: cover;
     width: 90%;
     object-position: right  -79px;
-    /* height: 100%; */
-    /* overflow-clip-margin: inherit;
-    overflow: hidden; */
   }
 
   .modal__desktop-wrapper {
