@@ -289,7 +289,7 @@ buttons.forEach((button) => button.addEventListener('click', showModal));
 // Form validation
 const usernameInput = document.getElementById('user__name');
 
-usernameInput.addEventListener('input', function(event) {
+usernameInput.addEventListener('input', (event) => {
   const regex = /^[a-zA-Z\s]+$/;
   const inputValue = event.target.value;
 
