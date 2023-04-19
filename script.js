@@ -285,3 +285,44 @@ const showModal = (event) => {
 const buttons = document.querySelectorAll('.project__button');
 
 buttons.forEach((button) => button.addEventListener('click', showModal));
+
+// Form validation
+const usernameInput = document.getElementById('user__name');
+
+usernameInput.addEventListener('input', function(event) {
+  const regex = /^[a-zA-Z]+$/;
+  const inputValue = event.target.value;
+
+  if (!regex.test(inputValue)) {
+    event.target.setCustomValidity('Use only English alphabets for username.');
+  } else {
+    event.target.setCustomValidity('');
+  }
+});
+
+const contactForm = document.getElementById('contact__form');
+const emailField = document.getElementById('email__address');
+const errorMessage = document.getElementById('error');
+
+const correctEmail = () => {
+  if (emailField.value === emailField.value.toLowerCase()) {
+    return true;
+  }
+
+  return false;
+};
+
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (!correctEmail()) {
+    emailField.style.border = '3px solid red';
+    errorMessage.style.display = 'block';
+  } else {
+    emailField.style.border = '1px solid #cfd8dc';
+    errorMessage.style.display = 'none';
+
+    contactForm.submit();
+    contactForm.();
+  }
+});
