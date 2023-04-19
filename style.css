@@ -691,15 +691,17 @@ hr {
   /* Modal  Section */
 
   .modal {
-    padding: 3% 8%;
-    overflow: auto;
+    padding: 1% 8%;
+    overflow-y: hidden;
   }
 
   .modal-card {
     padding: 24px;
+    padding-bottom: 30px;
     margin: 0 auto;
     width: 77%;
-    height: 100vh;
+    height: 87vh;
+    overflow-y: hidden;
   }
 
   .modal__details {
@@ -716,7 +718,7 @@ hr {
     width: 90%;
     margin: 0 auto;
     height: 45vh;
-    overflow: hidden;
+    overflow-y: hidden;
   }
 
   .modal__image {
