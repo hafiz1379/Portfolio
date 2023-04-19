@@ -31,7 +31,6 @@ hr {
   margin-bottom: 16px;
 }
 
-
 /* Page */
 
 .page {
@@ -52,7 +51,6 @@ hr {
   color: #fff;
   border: 1px solid#6070ff;
   transition: #05e9f5 1s ease-in 0.5s;
-  
 }
 
 .button:active {
@@ -690,7 +688,7 @@ hr {
     margin-bottom: 40px;
   }
 
-  /* Modal  Section*/
+  /* Modal  Section */
 
   .modal {
     padding: 3% 8%;

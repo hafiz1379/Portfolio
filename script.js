@@ -1,8 +1,8 @@
-window.addEventListener("hashchange", () => {
-  if (window.location.hash === "#menu") {
-    document.body.classList.add("header--open-menu");
+window.addEventListener('hashchange', () => {
+  if (window.location.hash === '#menu') {
+    document.body.classList.add('header--open-menu');
   } else {
-    document.body.classList.remove("header--open-menu");
+    document.body.classList.remove('header--open-menu');
   }
 });
 
@@ -10,119 +10,119 @@ window.addEventListener("hashchange", () => {
 
 const projectCard = [
   {
-    id: "0",
-    image: "./images/work-0.png",
-    title: "Tonic",
-    creatorName: "Canopy",
-    creatorPos: "Back End Dev",
-    creatorYear: "2015",
+    id: '0',
+    image: './images/work-0.png',
+    title: 'Tonic',
+    creatorName: 'Canopy',
+    creatorPos: 'Back End Dev',
+    creatorYear: '2015',
     descriptionShort:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionLong1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     descriptionLong2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    language1: "HTML",
-    language2: "Ruby on rails",
-    language3: "CSS",
-    language4: "Javascript",
-    language5: "Bootstrap",
-    buttonOpen: "See project",
-    buttonLive: "See live",
-    liveLink: "https://hafiz1379.github.io/Portfolio-desktop-version/",
-    buttonSource: "See source",
+    language1: 'HTML',
+    language2: 'Ruby on rails',
+    language3: 'CSS',
+    language4: 'Javascript',
+    language5: 'Bootstrap',
+    buttonOpen: 'See project',
+    buttonLive: 'See live',
+    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    buttonSource: 'See source',
     sourceLink:
-      "https://github.com/hafiz1379/Portfolio-desktop-version/tree/main",
+      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
   },
 
   {
-    id: "1",
-    image: "./images/work-1.png",
-    title: "Multi-Post Stories",
-    creatorName: "Facebook",
-    creatorPos: "Full Stack Dev",
-    creatorYear: "2015",
+    id: '1',
+    image: './images/work-1.png',
+    title: 'Multi-Post Stories',
+    creatorName: 'Facebook',
+    creatorPos: 'Full Stack Dev',
+    creatorYear: '2015',
     descriptionShort:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     descriptionLong1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     descriptionLong2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    language1: "HTML",
-    language2: "Ruby on rails",
-    language3: "CSS",
-    language4: "Javascript",
-    language5: "Bootstrap",
-    buttonOpen: "See project",
-    buttonLive: "See live",
-    liveLink: "https://hafiz1379.github.io/Portfolio-desktop-version/",
-    buttonSource: "See source",
+    language1: 'HTML',
+    language2: 'Ruby on rails',
+    language3: 'CSS',
+    language4: 'Javascript',
+    language5: 'Bootstrap',
+    buttonOpen: 'See project',
+    buttonLive: 'See live',
+    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    buttonSource: 'See source',
     sourceLink:
-      "https://github.com/hafiz1379/Portfolio-desktop-version/tree/main",
+      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
   },
 
   {
-    id: "2",
-    image: "./images/work-2.png",
-    title: "Facebook 360",
-    creatorName: "Facebook",
-    creatorPos: "Full Stack Dev",
-    creatorYear: "2015",
+    id: '2',
+    image: './images/work-2.png',
+    title: 'Facebook 360',
+    creatorName: 'Facebook',
+    creatorPos: 'Full Stack Dev',
+    creatorYear: '2015',
     descriptionShort:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     descriptionLong1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     descriptionLong2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    language1: "HTML",
-    language2: "Ruby on rails",
-    language3: "CSS",
-    language4: "Javascript",
-    language5: "Bootstrap",
-    buttonOpen: "See project",
-    buttonLive: "See live",
-    liveLink: "https://hafiz1379.github.io/Portfolio-desktop-version/",
-    buttonSource: "See source",
+    language1: 'HTML',
+    language2: 'Ruby on rails',
+    language3: 'CSS',
+    language4: 'Javascript',
+    language5: 'Bootstrap',
+    buttonOpen: 'See project',
+    buttonLive: 'See live',
+    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    buttonSource: 'See source',
     sourceLink:
-      "https://github.com/hafiz1379/Portfolio-desktop-version/tree/main",
+      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
   },
 
   {
-    id: "3",
-    image: "./images/work-3.png",
-    title: "Uber Navigation",
-    creatorName: "Uber",
-    creatorPos: "Lead Developer",
-    creatorYear: "2018",
+    id: '3',
+    image: './images/work-3.png',
+    title: 'Uber Navigation',
+    creatorName: 'Uber',
+    creatorPos: 'Lead Developer',
+    creatorYear: '2018',
     descriptionShort:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     descriptionLong1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     descriptionLong2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    language1: "HTML",
-    language2: "Ruby on rails",
-    language3: "CSS",
-    language4: "Javascript",
-    language5: "Bootstrap",
-    buttonOpen: "See project",
-    buttonLive: "See live",
-    liveLink: "https://hafiz1379.github.io/Portfolio-desktop-version/",
-    buttonSource: "See source",
+    language1: 'HTML',
+    language2: 'Ruby on rails',
+    language3: 'CSS',
+    language4: 'Javascript',
+    language5: 'Bootstrap',
+    buttonOpen: 'See project',
+    buttonLive: 'See live',
+    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    buttonSource: 'See source',
     sourceLink:
-      "https://github.com/hafiz1379/Portfolio-desktop-version/tree/main",
+      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
   },
 ];
 
-const projectContainer = document.querySelector(".work");
+const projectContainer = document.querySelector('.work');
 
 const createProjectCards = () => {
   projectCard.map((projectInfo) => {
-    const createProject = document.createElement("article");
-    createProject.classList.add("project");
+    const createProject = document.createElement('article');
+    createProject.classList.add('project');
 
     if (projectInfo.id % 2 === 1) {
-      createProject.classList.add("row-reverse");
+      createProject.classList.add('row-reverse');
     }
 
     createProject.innerHTML = `
@@ -172,12 +172,12 @@ createProjectCards();
 
 // Open modal
 
-const modalContainer = document.querySelector(".modal");
+const modalContainer = document.querySelector('.modal');
 
 const showModal = (event) => {
   const clickedButton = event.target.id.slice(5);
 
-  modalContainer.classList.remove("hidden");
+  modalContainer.classList.remove('hidden');
 
   const createModal = () => {
     const findCardInfo = projectCard.find((card) => card.id === clickedButton);
@@ -186,8 +186,8 @@ const showModal = (event) => {
       return;
     }
 
-    const createModalCard = document.createElement("article");
-    createModalCard.classList.add("modal-card");
+    const createModalCard = document.createElement('article');
+    createModalCard.classList.add('modal-card');
 
     createModalCard.innerHTML = `
       <div class="project__details modal__details">
@@ -260,7 +260,7 @@ const showModal = (event) => {
       </div>
     `;
 
-    const modalIsShown = modalContainer.querySelector(".modal-card");
+    const modalIsShown = modalContainer.querySelector('.modal-card');
 
     if (modalIsShown) {
       modalContainer.removeChild(modalIsShown);
@@ -270,18 +270,18 @@ const showModal = (event) => {
 
     // Close Modal
 
-    const modalCloser = document.querySelector(".modal__closer");
+    const modalCloser = document.querySelector('.modal__closer');
 
     const closeModal = () => {
-      modalContainer.classList.add("hidden");
+      modalContainer.classList.add('hidden');
     };
 
-    modalCloser.addEventListener("click", closeModal);
+    modalCloser.addEventListener('click', closeModal);
   };
 
   createModal();
 };
 
-const buttons = document.querySelectorAll(".project__button");
+const buttons = document.querySelectorAll('.project__button');
 
-buttons.forEach((button) => button.addEventListener("click", showModal));
+buttons.forEach((button) => button.addEventListener('click', showModal));
