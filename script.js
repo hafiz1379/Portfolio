@@ -323,6 +323,6 @@ contactForm.addEventListener('submit', (event) => {
     errorMessage.style.display = 'none';
 
     contactForm.submit();
-    contactForm.();
+    contactForm.result();
   }
 });
