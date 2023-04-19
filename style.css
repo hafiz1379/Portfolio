@@ -658,7 +658,8 @@ hr {
 
   .project__title {
     font-size: 40px;
-    line-height: 130%;
+    line-height: 60%;
+    margin-top: 10px;
   }
 
   .project__creator {
@@ -714,7 +715,7 @@ hr {
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    height: 50vh;
+    height: 90vh;
     overflow: hidden;
   }
 
