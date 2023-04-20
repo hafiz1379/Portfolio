@@ -263,6 +263,7 @@
           required
           class="form__input"
           id="user__name"
+          id="full__name"
         >
 
         <input 
@@ -282,17 +283,26 @@
         required
         maxlength="500"
         class="form__textarea"
+        id="message"
         ></textarea>
 
          <p id="error">Please write your email in lowercase!</p>
 
-        <button 
-          type="submit"
-          class="form__button"
-        >
-          Get in touch
-        </button>
-      </form>
+         <div class="formbtn">
+         <button 
+           type="submit"
+           class="form__button"
+         >
+           Get in touch
+         </button>
+         <button 
+           type="reset"
+           class="form__button"
+         >
+           Reset
+         </button>
+        </div>
+        </form>
 
     </footer>
     <script src="script.js"></script>
