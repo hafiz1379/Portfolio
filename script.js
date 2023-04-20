@@ -335,7 +335,7 @@ let formData = {
   message: ''
 };
 
-const Input = document.getElementById('user__name');
+const nameInput = document.getElementById('user__name');
 const emailInput = document.getElementById('email__address');
 const messageInput = document.getElementById('message');
 
