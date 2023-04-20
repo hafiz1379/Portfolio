@@ -332,7 +332,7 @@ contactForm.addEventListener('submit', (event) => {
 let formData = {
   name: '',
   email: '',
-  message: ''
+  message: '',
 };
 
 const nameInput = document.getElementById('user__name');
@@ -354,7 +354,6 @@ messageInput.addEventListener('input', (event) => {
   localStorage.setItem('formData', JSON.stringify(formData));
 });
 
-
 if (localStorage.getItem('formData')) {
   formData = JSON.parse(localStorage.getItem('formData'));
   nameInput.value = formData.name;
@@ -363,6 +362,6 @@ if (localStorage.getItem('formData')) {
 }
 
 const form = document.getElementById('contact__form');
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', () => {
   localStorage.setItem('formData', JSON.stringify(formData));
 });
