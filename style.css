@@ -81,7 +81,7 @@ hr {
   width: 18px;
   height: 12px;
   margin-right: 8px;
-  background: url(./pictures/menu.svg) no-repeat center;
+  background: url(./images/menu.svg) no-repeat center;
   background-size: cover;
 }
 
@@ -90,7 +90,7 @@ hr {
   width: 18px;
   height: 12px;
   float: right;
-  background: url(./pictures/x-symbol-svgrepo-com.svg) no-repeat center;
+  background: url(./images/x-symbol-svgrepo-com.svg) no-repeat center;
   background-size: cover;
 }
 
@@ -142,7 +142,7 @@ hr {
 
 .hero {
   background: #fff;
-  background-image: url(./pictures/hero-bg.svg);
+  background-image: url(./images/hero-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 75px;
@@ -415,14 +415,13 @@ hr {
   font-size: 20px;
   line-height: 120%;
   color: #000;
-  padding: 24px 0;
 }
 
 .accordion__arrow-down {
   display: block;
   width: 14px;
   height: 8px;
-  background: url(./pictures/arrow-down.svg) no-repeat center;
+  background: url(./images/arrow-down.svg) no-repeat center;
   background-size: cover;
   margin-right: 28px;
 }
@@ -431,7 +430,7 @@ hr {
   display: block;
   width: 8px;
   height: 14px;
-  background: url(./pictures/arrow-right.svg) no-repeat center;
+  background: url(./images/arrow-right.svg) no-repeat center;
   background-size: cover;
   margin-right: 28px;
 }
@@ -440,6 +439,7 @@ hr {
   display: flex;
   flex-direction: column;
   padding-left: 0;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -456,6 +456,12 @@ hr {
   border-radius: 8px;
 }
 
+.accordion__item:hover {
+  cursor: pointer;
+  background-color: #e8e8e8;
+  transition: all 0.5s ease-in-out;
+}
+
 .accordion__closed {
   border-bottom: 1px solid #dfe1e6;
 }
@@ -463,7 +469,7 @@ hr {
 /* Footer - Contact Section */
 
 .contact {
-  background-image: url(./pictures/contact-form-bg.svg);
+  background-image: url(./images/contact-form-bg.svg);
   background-repeat: no-repeat;
   background-position: right 0;
   background-color: #6070ff;
@@ -614,7 +620,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     column-gap: 24px;
-    background-image: url(./pictures/hero-background.svg);
+    background-image: url(./images/hero-background.svg);
     background-size: contain;
   }
 
@@ -665,7 +671,6 @@ hr {
 
   .project__title {
     font-size: 40px;
-    line-height: 60%;
     margin-top: 10px;
   }
 
@@ -804,8 +809,8 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     column-gap: 12px;
-    width: 122px;
-    height: 120px;
+    width: fit-content;
+    height: 40px;
     align-items: flex-start;
     padding: 12px;
   }
@@ -814,7 +819,7 @@ hr {
 
   .contact {
     padding: 142px 74px 127px;
-    background-image: url(./pictures/contact-form__desktop-bg.svg);
+    background-image: url(./images/contact-form__desktop-bg.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
