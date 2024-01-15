@@ -199,12 +199,13 @@ hr {
 }
 
 .project__image {
+  border-radius: 10px;
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
 
 .project__image:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .project__details {
