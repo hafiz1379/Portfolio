@@ -80,20 +80,23 @@ hr {
   0% {
     transform: rotate(0deg) scale(1);
   }
+
   25% {
     transform: rotate(90deg) scale(1);
   }
+
   50% {
     transform: rotate(180deg) scale(1);
   }
+
   75% {
     transform: rotate(270deg) scale(1);
   }
+
   100% {
     transform: rotate(360deg) scale(1.2);
   }
 }
-
 
 .header--open-menu {
   overflow: hidden;
@@ -190,19 +193,17 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #ed5504 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
+  background-image:
+    linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #ed5504 100%
+    );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 3s linear infinite;
