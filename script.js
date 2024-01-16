@@ -47,7 +47,7 @@ const projectCard = [
     descriptionLong1:
       'Welcome to our comprehensive air pollution information application! It offers up-to-date, forecasted, and historical air pollution data for a multitude of countries. Easily navigate through the pollution index of your country by scrolling through the list or utilizing the search bar for a quick lookup.',
     descriptionLong2:
-      'This application is meticulously crafted using cutting-edge technologies, specifically React.js and Redux, ensuring a seamless and efficient user experience. Dive into detailed pollution information by selecting your country of interest and gain valuable insights into the air quality trends over time.',
+      'This app, built with React.js and Redux, offers a seamless user experience. Explore pollution data by selecting your country to gain insights into air quality trends.',
     language1: 'React',
     language2: 'Redux',
     language3: 'CSS',
@@ -237,7 +237,7 @@ const showModal = (event) => {
             </ul>
             <hr>
             <div class="modal-bottom">
-              <a href="${findCardInfo.liveLink}" class="modal__button button">
+              <a href="${findCardInfo.liveLink}" class="modal__button button" target="_blank" rel="noopener noreferrer">
                 ${findCardInfo.buttonLive}
                 <img 
                   src="./images/live.svg" 
@@ -246,7 +246,7 @@ const showModal = (event) => {
                 >
               </a>
           
-              <a href="${findCardInfo.sourceLink}" class="modal__button button">
+              <a href="${findCardInfo.sourceLink}" class="modal__button button" target="_blank" rel="noopener noreferrer">
                 ${findCardInfo.buttonSource}
                 <img 
                   src="./images/source.svg" 
