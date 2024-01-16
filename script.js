@@ -11,106 +11,106 @@ window.addEventListener('hashchange', () => {
 const projectCard = [
   {
     id: '0',
-    image: './images/work-0.png',
-    title: 'Tonic',
-    creatorName: 'Canopy',
-    creatorPos: 'Back End Dev',
-    creatorYear: '2015',
+    image: './images/work-1.png',
+    title: 'Tesla Car Booking',
+    creatorName: 'Hafiz Rasa',
+    creatorPos: 'Full Stack Dev',
+    creatorYear: '2023',
     descriptionShort:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'It is the front end app to book Tesla car test drives. The app allows admin users to create and delete cars from the availability list. Besides, it allows to make reservations by car model, city and time.',
     descriptionLong1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      'Welcome to our advanced Tesla test drive booking app! Admins can effortlessly manage the fleet, creating and removing cars as needed.',
     descriptionLong2:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    language1: 'HTML',
+      'For users, it is a breeze to reserve a Tesla test drive based on model, city, and time. Explore and book your preferred ride with just a few clicks. Enjoy the future of car reservations!',
+    language1: 'React',
     language2: 'Ruby on rails',
     language3: 'CSS',
-    language4: 'Javascript',
-    language5: 'Bootstrap',
+    language4: 'PostgreSQL',
+    language5: 'Redux',
     buttonOpen: 'See project',
     buttonLive: 'See live',
-    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    liveLink: 'https://tesla-car-booking-front.onrender.com/',
     buttonSource: 'See source',
     sourceLink:
-      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
+      'https://github.com/hafiz1379/Tesla-car-booking-front-end?tab=readme-ov-file',
   },
 
   {
     id: '1',
     image: './images/work-1.png',
-    title: 'Multi-Post Stories',
-    creatorName: 'Facebook',
-    creatorPos: 'Full Stack Dev',
-    creatorYear: '2015',
+    title: 'Air Pollution Tracker',
+    creatorName: 'Hafiz Rasa',
+    creatorPos: 'Front End Dev',
+    creatorYear: '2023',
     descriptionShort:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      'This application provides current, forecast and historical air pollution data for majority countries. You can check the pollution index of your country by simply scrolling or searching for it using the search bar and clicking on it to show more details. This application is built with React.js and Redux.',
     descriptionLong1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      'Welcome to our comprehensive air pollution information application! It offers up-to-date, forecasted, and historical air pollution data for a multitude of countries. Easily navigate through the pollution index of your country by scrolling through the list or utilizing the search bar for a quick lookup.',
     descriptionLong2:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    language1: 'HTML',
-    language2: 'Ruby on rails',
+      'This app, built with React.js and Redux, offers a seamless user experience. Explore pollution data by selecting your country to gain insights into air quality trends.',
+    language1: 'React',
+    language2: 'Redux',
     language3: 'CSS',
-    language4: 'Javascript',
-    language5: 'Bootstrap',
+    language4: 'Tailwind',
+    language5: 'Testing',
     buttonOpen: 'See project',
     buttonLive: 'See live',
-    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    liveLink: 'https://react-capstone-project-g3s8.onrender.com/',
     buttonSource: 'See source',
     sourceLink:
-      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
+      'https://github.com/hafiz1379/react-capstone-project',
   },
 
   {
     id: '2',
     image: './images/work-2.png',
-    title: 'Facebook 360',
-    creatorName: 'Facebook',
-    creatorPos: 'Full Stack Dev',
-    creatorYear: '2015',
+    title: 'JS Capstone Project',
+    creatorName: 'Hafiz Rasa',
+    creatorPos: 'Front End Dev',
+    creatorYear: '2023',
     descriptionShort:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      'Our project is a web app that fetches data from an API, displaying items and allowing users to like, comment, and reserve them. It consists of a home page, comments popup, and popup. We use the Involvement API to record interactions and Jest for unit testing. The app is set up on GitHub using Gitflow, webpack, and follows the provided layout.',
     descriptionLong1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      'Discover our interactive web app, fetching real-time data from an API. Users can like, comment, and reserve items, ensuring a personalized experience.',
     descriptionLong2:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    language1: 'HTML',
-    language2: 'Ruby on rails',
+      'Structured with a user-friendly home page and intuitive popups, the app employs the Involvement API for seamless interaction tracking. Jest handles unit testing, and the project follows Gitflow on GitHub, using webpack for bundling and maintaining a consistent layout.',
+    language1: 'JavaScript',
+    language2: 'API',
     language3: 'CSS',
-    language4: 'Javascript',
-    language5: 'Bootstrap',
+    language4: 'HTML',
+    language5: '',
     buttonOpen: 'See project',
     buttonLive: 'See live',
-    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    liveLink: 'https://hafiz1379.github.io/JS-capstone-project/dist/',
     buttonSource: 'See source',
     sourceLink:
-      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
+      'https://github.com/hafiz1379/JS-capstone-project',
   },
 
   {
     id: '3',
     image: './images/work-3.png',
-    title: 'Uber Navigation',
-    creatorName: 'Uber',
-    creatorPos: 'Lead Developer',
-    creatorYear: '2018',
+    title: 'To Do List',
+    creatorName: 'Hafiz Rasa',
+    creatorPos: 'Front End Dev',
+    creatorYear: '2023',
     descriptionShort:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+      'The To-Do List project is a minimalist web application that helps users efficiently manage tasks. With a clean interface and intuitive features, it simplifies task organization, allowing users to stay productive and focused. Keep track of your responsibilities effortlessly with this powerful To-Do List project.',
     descriptionLong1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      'Introducing our minimalist To-Do List project—a web application crafted for efficient task management. Its clean interface and intuitive features redefine how users organize their tasks for optimal productivity.',
     descriptionLong2:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      'Simplify your task tracking with this powerful To-Do List project. Stay focused and effortlessly manage your responsibilities through its user-friendly design and seamless organization features.',
     language1: 'HTML',
-    language2: 'Ruby on rails',
+    language2: 'Webpack',
     language3: 'CSS',
     language4: 'Javascript',
-    language5: 'Bootstrap',
+    language5: '',
     buttonOpen: 'See project',
     buttonLive: 'See live',
-    liveLink: 'https://hafiz1379.github.io/Portfolio-desktop-version/',
+    liveLink: 'https://hafiz1379.github.io/To-do-list/dist/',
     buttonSource: 'See source',
     sourceLink:
-      'https://github.com/hafiz1379/Portfolio-desktop-version/tree/main',
+      'https://github.com/hafiz1379/To-do-list',
   },
 ];
 
@@ -237,7 +237,7 @@ const showModal = (event) => {
             </ul>
             <hr>
             <div class="modal-bottom">
-              <a href="${findCardInfo.liveLink}" class="modal__button button">
+              <a href="${findCardInfo.liveLink}" class="modal__button button" target="_blank" rel="noopener noreferrer">
                 ${findCardInfo.buttonLive}
                 <img 
                   src="./images/live.svg" 
@@ -246,7 +246,7 @@ const showModal = (event) => {
                 >
               </a>
           
-              <a href="${findCardInfo.sourceLink}" class="modal__button button">
+              <a href="${findCardInfo.sourceLink}" class="modal__button button" target="_blank" rel="noopener noreferrer">
                 ${findCardInfo.buttonSource}
                 <img 
                   src="./images/source.svg" 
