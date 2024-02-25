@@ -1,8 +1,8 @@
-window.addEventListener('hashchange', () => {
-  if (window.location.hash === '#menu') {
-    document.body.classList.add('header--open-menu');
+window.addEventListener("hashchange", () => {
+  if (window.location.hash === "#menu") {
+    document.body.classList.add("header--open-menu");
   } else {
-    document.body.classList.remove('header--open-menu');
+    document.body.classList.remove("header--open-menu");
   }
 });
 
@@ -10,119 +10,116 @@ window.addEventListener('hashchange', () => {
 
 const projectCard = [
   {
-    id: '0',
-    image: './images/work-1.png',
-    title: 'Tesla Car Booking',
-    creatorName: 'Hafiz Rasa',
-    creatorPos: 'Full Stack Dev',
-    creatorYear: '2023',
+    id: "3",
+    image: "./images/work-3.png",
+    title: "My Places",
+    creatorName: "Hafiz Rasa",
+    creatorPos: "Full Stack Dev",
+    creatorYear: "2024",
     descriptionShort:
-      'It is the front end app to book Tesla car test drives. The app allows admin users to create and delete cars from the availability list. Besides, it allows to make reservations by car model, city and time.',
+      "MyPlaces—a comprehensive web app enabling users to sign up, log in, and effortlessly share their beloved destinations. Share detailed descriptions, addresses, and captivating pictures of your favorite spots with ease.",
     descriptionLong1:
-      'Welcome to our advanced Tesla test drive booking app! Admins can effortlessly manage the fleet, creating and removing cars as needed.',
+      "Join MyPlaces, where exploration meets sharing! Our intuitive full-stack web application empowers users to effortlessly sign up and log in.",
     descriptionLong2:
-      'For users, it is a breeze to reserve a Tesla test drive based on model, city, and time. Explore and book your preferred ride with just a few clicks. Enjoy the future of car reservations!',
-    language1: 'React',
-    language2: 'Ruby on rails',
-    language3: 'CSS',
-    language4: 'PostgreSQL',
-    language5: 'Redux',
-    buttonOpen: 'See project',
-    buttonLive: 'See live',
-    liveLink: 'https://tesla-car-booking-front.onrender.com/',
-    buttonSource: 'See source',
-    sourceLink:
-      'https://github.com/hafiz1379/Tesla-car-booking-front-end?tab=readme-ov-file',
+      "Once logged in, unleash your creativity by showcasing your favorite spots with vivid descriptions, precise addresses, and captivating pictures. Let's build a vibrant community of exploration and inspiration together.",
+    language1: "Reactjs",
+    language2: "Nodejs",
+    language3: "Expressjs",
+    language4: "MongoDB",
+    language5: "Tailwindcss",
+    buttonOpen: "See project",
+    buttonLive: "See live",
+    liveLink: "https://mern-project-frontend-ruod.onrender.com",
+    buttonSource: "See source",
+    sourceLink: "https://github.com/hafiz1379/mern-project-frontend",
   },
 
   {
-    id: '1',
-    image: './images/work-1.png',
-    title: 'Air Pollution Tracker',
-    creatorName: 'Hafiz Rasa',
-    creatorPos: 'Front End Dev',
-    creatorYear: '2023',
+    id: "0",
+    image: "./images/work-1.png",
+    title: "Tesla Car Booking",
+    creatorName: "Hafiz Rasa",
+    creatorPos: "Full Stack Dev",
+    creatorYear: "2023",
     descriptionShort:
-      'This application provides current, forecast and historical air pollution data for majority countries. You can check the pollution index of your country by simply scrolling or searching for it using the search bar and clicking on it to show more details. This application is built with React.js and Redux.',
+      "It is the front end app to book Tesla car test drives. The app allows admin users to create and delete cars from the availability list. Besides, it allows to make reservations by car model, city and time.",
     descriptionLong1:
-      'Welcome to our comprehensive air pollution information application! It offers up-to-date, forecasted, and historical air pollution data for a multitude of countries. Easily navigate through the pollution index of your country by scrolling through the list or utilizing the search bar for a quick lookup.',
+      "Welcome to our advanced Tesla test drive booking app! Admins can effortlessly manage the fleet, creating and removing cars as needed.",
     descriptionLong2:
-      'This app, built with React.js and Redux, offers a seamless user experience. Explore pollution data by selecting your country to gain insights into air quality trends.',
-    language1: 'React',
-    language2: 'Redux',
-    language3: 'CSS',
-    language4: 'Tailwind',
-    language5: 'Testing',
-    buttonOpen: 'See project',
-    buttonLive: 'See live',
-    liveLink: 'https://react-capstone-project-g3s8.onrender.com/',
-    buttonSource: 'See source',
+      "For users, it is a breeze to reserve a Tesla test drive based on model, city, and time. Explore and book your preferred ride with just a few clicks. Enjoy the future of car reservations!",
+    language1: "React",
+    language2: "Ruby on rails",
+    language3: "CSS",
+    language4: "PostgreSQL",
+    language5: "Redux",
+    buttonOpen: "See project",
+    buttonLive: "See live",
+    liveLink: "https://tesla-car-booking-front.onrender.com/",
+    buttonSource: "See source",
     sourceLink:
-      'https://github.com/hafiz1379/react-capstone-project',
+      "https://github.com/hafiz1379/Tesla-car-booking-front-end?tab=readme-ov-file",
   },
 
   {
-    id: '2',
-    image: './images/work-2.png',
-    title: 'JS Capstone Project',
-    creatorName: 'Hafiz Rasa',
-    creatorPos: 'Front End Dev',
-    creatorYear: '2023',
+    id: "1",
+    image: "./images/work-1.png",
+    title: "Air Pollution Tracker",
+    creatorName: "Hafiz Rasa",
+    creatorPos: "Front End Dev",
+    creatorYear: "2023",
     descriptionShort:
-      'Our project is a web app that fetches data from an API, displaying items and allowing users to like, comment, and reserve them. It consists of a home page, comments popup, and popup. We use the Involvement API to record interactions and Jest for unit testing. The app is set up on GitHub using Gitflow, webpack, and follows the provided layout.',
+      "This application provides current, forecast and historical air pollution data for majority countries. You can check the pollution index of your country by simply scrolling or searching for it using the search bar and clicking on it to show more details. This application is built with React.js and Redux.",
     descriptionLong1:
-      'Discover our interactive web app, fetching real-time data from an API. Users can like, comment, and reserve items, ensuring a personalized experience.',
+      "Welcome to our comprehensive air pollution information application! It offers up-to-date, forecasted, and historical air pollution data for a multitude of countries. Easily navigate through the pollution index of your country by scrolling through the list or utilizing the search bar for a quick lookup.",
     descriptionLong2:
-      'Structured with a user-friendly home page and intuitive popups, the app employs the Involvement API for seamless interaction tracking. Jest handles unit testing, and the project follows Gitflow on GitHub, using webpack for bundling and maintaining a consistent layout.',
-    language1: 'JavaScript',
-    language2: 'API',
-    language3: 'CSS',
-    language4: 'HTML',
-    language5: '',
-    buttonOpen: 'See project',
-    buttonLive: 'See live',
-    liveLink: 'https://hafiz1379.github.io/JS-capstone-project/dist/',
-    buttonSource: 'See source',
-    sourceLink:
-      'https://github.com/hafiz1379/JS-capstone-project',
+      "This app, built with React.js and Redux, offers a seamless user experience. Explore pollution data by selecting your country to gain insights into air quality trends.",
+    language1: "React",
+    language2: "Redux",
+    language3: "CSS",
+    language4: "Tailwind",
+    language5: "Testing",
+    buttonOpen: "See project",
+    buttonLive: "See live",
+    liveLink: "https://react-capstone-project-g3s8.onrender.com/",
+    buttonSource: "See source",
+    sourceLink: "https://github.com/hafiz1379/react-capstone-project",
   },
 
   {
-    id: '3',
-    image: './images/work-3.png',
-    title: 'To Do List',
-    creatorName: 'Hafiz Rasa',
-    creatorPos: 'Front End Dev',
-    creatorYear: '2023',
+    id: "2",
+    image: "./images/work-2.png",
+    title: "JS Capstone Project",
+    creatorName: "Hafiz Rasa",
+    creatorPos: "Front End Dev",
+    creatorYear: "2023",
     descriptionShort:
-      'The To-Do List project is a minimalist web application that helps users efficiently manage tasks. With a clean interface and intuitive features, it simplifies task organization, allowing users to stay productive and focused. Keep track of your responsibilities effortlessly with this powerful To-Do List project.',
+      "Our project is a web app that fetches data from an API, displaying items and allowing users to like, comment, and reserve them. It consists of a home page, comments popup, and popup. We use the Involvement API to record interactions and Jest for unit testing. The app is set up on GitHub using Gitflow, webpack, and follows the provided layout.",
     descriptionLong1:
-      'Introducing our minimalist To-Do List project—a web application crafted for efficient task management. Its clean interface and intuitive features redefine how users organize their tasks for optimal productivity.',
+      "Discover our interactive web app, fetching real-time data from an API. Users can like, comment, and reserve items, ensuring a personalized experience.",
     descriptionLong2:
-      'Simplify your task tracking with this powerful To-Do List project. Stay focused and effortlessly manage your responsibilities through its user-friendly design and seamless organization features.',
-    language1: 'HTML',
-    language2: 'Webpack',
-    language3: 'CSS',
-    language4: 'Javascript',
-    language5: '',
-    buttonOpen: 'See project',
-    buttonLive: 'See live',
-    liveLink: 'https://hafiz1379.github.io/To-do-list/dist/',
-    buttonSource: 'See source',
-    sourceLink:
-      'https://github.com/hafiz1379/To-do-list',
+      "Structured with a user-friendly home page and intuitive popups, the app employs the Involvement API for seamless interaction tracking. Jest handles unit testing, and the project follows Gitflow on GitHub, using webpack for bundling and maintaining a consistent layout.",
+    language1: "JavaScript",
+    language2: "API",
+    language3: "CSS",
+    language4: "HTML",
+    language5: "",
+    buttonOpen: "See project",
+    buttonLive: "See live",
+    liveLink: "https://hafiz1379.github.io/JS-capstone-project/dist/",
+    buttonSource: "See source",
+    sourceLink: "https://github.com/hafiz1379/JS-capstone-project",
   },
 ];
 
-const projectContainer = document.querySelector('.work');
+const projectContainer = document.querySelector(".work");
 
 const createProjectCards = () => {
   projectCard.map((projectInfo) => {
-    const createProject = document.createElement('article');
-    createProject.classList.add('project');
+    const createProject = document.createElement("article");
+    createProject.classList.add("project");
 
     if (projectInfo.id % 2 === 1) {
-      createProject.classList.add('row-reverse');
+      createProject.classList.add("row-reverse");
     }
 
     createProject.innerHTML = `
@@ -172,12 +169,12 @@ createProjectCards();
 
 // Open modal
 
-const modalContainer = document.querySelector('.modal');
+const modalContainer = document.querySelector(".modal");
 
 const showModal = (event) => {
   const clickedButton = event.target.id.slice(5);
 
-  modalContainer.classList.remove('hidden');
+  modalContainer.classList.remove("hidden");
 
   const createModal = () => {
     const findCardInfo = projectCard.find((card) => card.id === clickedButton);
@@ -186,8 +183,8 @@ const showModal = (event) => {
       return;
     }
 
-    const createModalCard = document.createElement('article');
-    createModalCard.classList.add('modal-card');
+    const createModalCard = document.createElement("article");
+    createModalCard.classList.add("modal-card");
 
     createModalCard.innerHTML = `
       <div class="project__details modal__details">
@@ -260,7 +257,7 @@ const showModal = (event) => {
       </div>
     `;
 
-    const modalIsShown = modalContainer.querySelector('.modal-card');
+    const modalIsShown = modalContainer.querySelector(".modal-card");
 
     if (modalIsShown) {
       modalContainer.removeChild(modalIsShown);
@@ -270,39 +267,39 @@ const showModal = (event) => {
 
     // Close Modal
 
-    const modalCloser = document.querySelector('.modal__closer');
+    const modalCloser = document.querySelector(".modal__closer");
 
     const closeModal = () => {
-      modalContainer.classList.add('hidden');
+      modalContainer.classList.add("hidden");
     };
 
-    modalCloser.addEventListener('click', closeModal);
+    modalCloser.addEventListener("click", closeModal);
   };
 
   createModal();
 };
 
-const buttons = document.querySelectorAll('.project__button');
+const buttons = document.querySelectorAll(".project__button");
 
-buttons.forEach((button) => button.addEventListener('click', showModal));
+buttons.forEach((button) => button.addEventListener("click", showModal));
 
 // Form validation
-const usernameInput = document.getElementById('user__name');
+const usernameInput = document.getElementById("user__name");
 
-usernameInput.addEventListener('input', (event) => {
+usernameInput.addEventListener("input", (event) => {
   const regex = /^[a-zA-Z\s]+$/;
   const inputValue = event.target.value;
 
   if (!regex.test(inputValue)) {
-    event.target.setCustomValidity('Use only English alphabets for username.');
+    event.target.setCustomValidity("Use only English alphabets for username.");
   } else {
-    event.target.setCustomValidity('');
+    event.target.setCustomValidity("");
   }
 });
 
-const contactForm = document.getElementById('contact__form');
-const emailField = document.getElementById('email__address');
-const errorMessage = document.getElementById('error');
+const contactForm = document.getElementById("contact__form");
+const emailField = document.getElementById("email__address");
+const errorMessage = document.getElementById("error");
 
 const correctEmail = () => {
   if (emailField.value === emailField.value.toLowerCase()) {
@@ -312,15 +309,15 @@ const correctEmail = () => {
   return false;
 };
 
-contactForm.addEventListener('submit', (event) => {
+contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   if (!correctEmail()) {
-    emailField.style.border = '3px solid red';
-    errorMessage.style.display = 'block';
+    emailField.style.border = "3px solid red";
+    errorMessage.style.display = "block";
   } else {
-    emailField.style.border = '1px solid #cfd8dc';
-    errorMessage.style.display = 'none';
+    emailField.style.border = "1px solid #cfd8dc";
+    errorMessage.style.display = "none";
 
     contactForm.submit();
     contactForm.result();
@@ -330,38 +327,38 @@ contactForm.addEventListener('submit', (event) => {
 // Locale Storage
 
 let formData = {
-  name: '',
-  email: '',
-  message: '',
+  name: "",
+  email: "",
+  message: "",
 };
 
-const nameInput = document.getElementById('user__name');
-const emailInput = document.getElementById('email__address');
-const messageInput = document.getElementById('message');
+const nameInput = document.getElementById("user__name");
+const emailInput = document.getElementById("email__address");
+const messageInput = document.getElementById("message");
 
-nameInput.addEventListener('input', (event) => {
+nameInput.addEventListener("input", (event) => {
   formData.name = event.target.value;
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem("formData", JSON.stringify(formData));
 });
 
-emailInput.addEventListener('input', (event) => {
+emailInput.addEventListener("input", (event) => {
   formData.email = event.target.value;
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem("formData", JSON.stringify(formData));
 });
 
-messageInput.addEventListener('input', (event) => {
+messageInput.addEventListener("input", (event) => {
   formData.message = event.target.value;
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem("formData", JSON.stringify(formData));
 });
 
-if (localStorage.getItem('formData')) {
-  formData = JSON.parse(localStorage.getItem('formData'));
+if (localStorage.getItem("formData")) {
+  formData = JSON.parse(localStorage.getItem("formData"));
   nameInput.value = formData.name;
   emailInput.value = formData.email;
   messageInput.value = formData.message;
 }
 
-const form = document.getElementById('contact__form');
-form.addEventListener('submit', () => {
-  localStorage.setItem('formData', JSON.stringify(formData));
+const form = document.getElementById("contact__form");
+form.addEventListener("submit", () => {
+  localStorage.setItem("formData", JSON.stringify(formData));
 });
