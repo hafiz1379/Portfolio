@@ -57,6 +57,7 @@
   <ul>
     <li><a href="https://html.spec.whatwg.org/multipage//">HTML</a></li>
     <li><a href="https://www.w3.org/TR/CSS/#css/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
