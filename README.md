@@ -1,194 +1,188 @@
 <a name="readme-top"></a>
 
-
-
 <div align="center">
-  
-  <img src="./77.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Portfolio Desktop Version</b></h3>
-
+  <img src="./77.png" alt="Portfolio Logo" width="140" height="auto" />
+  <h1 align="center">Portfolio</h1>
+  <p align="center">
+    A modern and responsive developer portfolio built with HTML, CSS, and JavaScript.
+  </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
+---
 
-# 📗 Table of Contents
+## 📋 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🛠 Tech Stack](#tech-stack)
+- [✨ Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+  - [🔧 Prerequisites](#prerequisites)
+  - [⚙️ Setup](#setup)
+  - [📦 Installation](#install)
+  - [📂 Usage](#usage)
+  - [🧪 Testing](#run-tests)
+  - [🚢 Deployment](#deployment)
+- [👨‍💻 Author](#authors)
+- [🌟 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [💖 Show Your Support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+---
 
-# 📖 Portfolio Desktop Version <a name="about-project"></a>
+## 📖 About the Project <a name="about-project"></a>
 
-> This is my First Portfolio project! created it by using HTML and CSS.
+Welcome to my first professional portfolio!  
+This project showcases a **desktop-only responsive layout** using **HTML**, **CSS**, and basic **JavaScript**, aimed at creating a sleek, personal brand identity for a frontend developer. It's a clean foundation to grow with more interactive features in the future.
 
-## 🛠 Built With <a name="built-with"></a>
+---
 
-1- HTML
-2- CSS
-3- Linters
-4- JavaScript
+## 🛠 Tech Stack <a name="tech-stack"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Frontend
 
->
+- 💡 HTML5
+- 🎨 CSS3
+- ⚙️ JavaScript (Vanilla)
+- ✅ Linters for code quality
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://html.spec.whatwg.org/multipage//">HTML</a></li>
-    <li><a href="https://www.w3.org/TR/CSS/#css/">CSS</a></li>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
-  </ul>
-</details>
+---
 
-<!-- Features -->
+## ✨ Key Features <a name="key-features"></a>
 
-### Key Features <a name="key-features"></a>
-
-- Added index.html file.
-- Added style.css file.
-- Added script.js file.
+- 🎯 **Clean UI** with semantic HTML structure
+- 🧩 **Modular CSS** for styling and layout
+- 💻 **Responsive for desktop** devices
+- 🧠 JavaScript file set up for future enhancements
+- ✅ Configured linters to maintain code standards
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+---
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-This is the [live demo link]https://hafiz1379.github.io/Portfolio/)
+🌐 **Click here to view the live version:**  
+👉 [Live Portfolio Site](https://hafiz1379.github.io/Portfolio/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
+---
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
->
+To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
+### 🔧 Prerequisites <a name="prerequisites"></a>
 
-In order to run this project you need:
+- A web browser (Chrome, Firefox, etc.)
+- Git installed on your machine
+- A text/code editor (VS Code preferred)
 
-1. Web browser.
-2. Code editor.
-3. Git-smc.
+---
 
-### Setup
+### ⚙️ Setup <a name="setup"></a>
 
-Clone this repository to your desired folder:
+Clone the repository to your local machine:
 
-Run this command:
-
-```sh
-  cd my-folder
-  git clone https://github.com/hafiz1379/Hello-Microverse.git
+```bash
+git clone https://github.com/hafiz1379/Portfolio.git
+cd Portfolio
 ```
 
-### Install
+---
 
-Install this project with:
+### 📦 Install <a name="install"></a>
 
-Run command:
+If you're using development tools like linters or package managers:
 
-```sh
-  cd my-project
-  npm install
+```bash
+npm install
 ```
 
-### Usage
+If not, no installation is required for static HTML/CSS projects.
 
-To run the project, execute the following command:
+---
 
-Open index.html using live server extension.
+### 📂 Usage <a name="usage"></a>
 
-### Run tests
+To run the project:
 
-To run tests, run the following command:
+- Open `index.html` directly in your browser
+  **OR**
+- Use the Live Server extension in VS Code for better development experience.
 
-> Coming soon
+---
 
-### Deployment
+### 🧪 Run Tests <a name="run-tests"></a>
 
-You can deploy this project using:
+> Automated tests are not implemented yet. Manual UI and style checks recommended.
 
-> Coming soon
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 🚢 Deployment <a name="deployment"></a>
 
-<!-- AUTHORS -->
+You can deploy this site using:
 
-## 👥 Authors <a name="authors"></a>
+- GitHub Pages
+- Netlify
+- Vercel
 
-👤 Hafizullah Rasa
+---
 
-- GitHub: [@githubhandle](https://github.com/hafiz1379)
-- Twitter: [@twitterhandle](https://twitter.com/Hafizrasa1379?s=35)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hafizullah-rasa-8436a1257/)
+## 👨‍💻 Author <a name="authors"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Hafizullah Rasa**
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [] add new tags.
-- [] add new styles.
-- [] add new features using JavaScript.
+- GitHub: [@hafiz1379](https://github.com/hafiz1379)
+- Twitter: [@Hafizrasa1379](https://twitter.com/Hafizrasa1379)
+- LinkedIn: [Hafizullah Rasa](https://www.linkedin.com/in/hafizullah-rasa-8436a1257/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+---
+
+## 🌟 Future Features <a name="future-features"></a>
+
+- [ ] Mobile responsiveness
+- [ ] Project section with dynamic JS rendering
+- [ ] Contact form with validation
+- [ ] Dark mode toggle
+- [ ] Blog integration
+
+---
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature suggestions are welcome!
+Please feel free to check the [issues page](../../issues).
 
-Feel free to check the [issues page](../../issues/).
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 💖 Show Your Support <a name="support"></a>
 
-<!-- SUPPORT -->
+If you like this project, consider:
 
-## ⭐️ Show your support <a name="support"></a>
+- Giving it a ⭐️ on GitHub
+- Sharing it with others
+- Providing feedback for improvement
 
-If you like this project just give it a star.
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
-<!-- ACKNOWLEDGEMENTS -->
+Special thanks to:
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- [Microverse](https://www.microverse.org/) for the guidance and project structure inspiration.
+- Fellow developers and reviewers who provided constructive feedback.
 
-I would like to thank Microverse,
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+---
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is licensed under the [MIT License](./LICENSE).
 
+---
+
+<p align="center">Built with ❤️ by Hafizullah Rasa</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
