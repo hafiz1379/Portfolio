@@ -135,7 +135,7 @@ You can deploy this site using:
 **Hafizullah Rasa**
 
 - GitHub: [@hafiz1379](https://github.com/hafiz1379)
-- Twitter: [@Hafizrasa1379](https://twitter.com/Hafizrasa1379)
+- Twitter: [@Hafizrasa1379](https://twitter.com/HafizRasa)
 - LinkedIn: [Hafizullah Rasa](https://www.linkedin.com/in/hafizullah-rasa-8436a1257/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
