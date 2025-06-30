@@ -380,6 +380,7 @@ hr {
   background: url(./images/x-grey.svg) no-repeat center;
   background-size: cover;
   border-style: none;
+  cursor: pointer;
 }
 
 .modal-bottom {
