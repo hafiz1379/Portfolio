@@ -73,7 +73,7 @@ hr {
   font-size: 24px;
   color: #172b4d;
   transform-origin: center;
-  animation: coolAnimation 1.5s ease-in-out infinite;
+  animation: coolAnimation 2.5s ease-in-out infinite;
 }
 
 @keyframes coolAnimation {
