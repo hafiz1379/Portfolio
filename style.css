@@ -193,14 +193,13 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
-  background-image:
-    linear-gradient(
-      -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #ed5504 100%
-    );
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ed5504 100%
+  );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
