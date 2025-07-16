@@ -205,7 +205,7 @@ hr {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
+  animation: textclip 4s linear infinite;
   display: inline-block;
 }
 
