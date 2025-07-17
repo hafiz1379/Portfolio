@@ -127,6 +127,7 @@ You can deploy this site using:
 - GitHub Pages
 - Netlify
 - Vercel
+- Render
 
 ---
 
