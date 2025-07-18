@@ -150,6 +150,7 @@ You can deploy this site using:
 - [ ] Contact form with validation
 - [ ] Dark mode toggle
 - [ ] Blog integration
+- [ ] Enhanced animations and transitions
 
 ---
 
