@@ -57,6 +57,7 @@ This project showcases a **desktop-only responsive layout** using **HTML**, **CS
 - 💻 **Responsive for desktop** devices
 - 🧠 JavaScript file set up for future enhancements
 - ✅ Configured linters to maintain code standards
+- 📂 Organized file structure for easy navigation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
