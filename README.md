@@ -21,7 +21,6 @@
   - [⚙️ Setup](#setup)
   - [📦 Installation](#install)
   - [📂 Usage](#usage)
-  - [🧪 Testing](#run-tests)
   - [🚢 Deployment](#deployment)
 - [👨‍💻 Author](#authors)
 - [🌟 Future Features](#future-features)
@@ -114,11 +113,6 @@ To run the project:
   **OR**
 - Use the Live Server extension in VS Code for better development experience.
 
----
-
-### 🧪 Run Tests <a name="run-tests"></a>
-
-> Automated tests are not implemented yet. Manual UI and style checks recommended.
 
 ---
 
