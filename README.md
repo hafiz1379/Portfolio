@@ -141,7 +141,6 @@ You can deploy this site using:
 
 ## 🌟 Future Features <a name="future-features"></a>
 
-- [ ] Mobile responsiveness
 - [ ] Project section with dynamic JS rendering
 - [ ] Contact form with validation
 - [ ] Dark mode toggle
