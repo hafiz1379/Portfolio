@@ -181,5 +181,5 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-<p align="center">Built with ❤️ by Hafizullah Rasa</p>
+<p align="center">Developed with ❤️ by Hafizullah Rasa</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
