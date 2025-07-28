@@ -163,6 +163,7 @@ If you like this project, consider:
 - Giving it a ⭐️ on GitHub
 - Sharing it with others
 - Providing feedback for improvement
+- Following me on GitHub
 
 ---
 
