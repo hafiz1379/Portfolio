@@ -164,6 +164,7 @@ If you like this project, consider:
 - Sharing it with others
 - Providing feedback for improvement
 - Following me on GitHub
+- Reporting issues or suggesting features
 
 ---
 
