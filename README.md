@@ -146,6 +146,7 @@ You can deploy this site using:
 - [ ] Dark mode toggle
 - [ ] Blog integration
 - [ ] Enhanced animations and transitions
+- [ ] SEO optimizations
 
 ---
 
