@@ -124,6 +124,7 @@ You can deploy this site using:
 - Netlify
 - Vercel
 - Render
+- Any static site hosting service
 
 ---
 
