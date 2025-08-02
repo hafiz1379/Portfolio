@@ -72,7 +72,7 @@ This project showcases a **desktop-only responsive layout** using **HTML**, **CS
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these simple steps.
+To get a local copy of this project up and running, follow these simple steps:
 
 ### 🔧 Prerequisites <a name="prerequisites"></a>
 
@@ -112,6 +112,7 @@ To run the project:
 - Open `index.html` directly in your browser
   **OR**
 - Use the Live Server extension in VS Code for better development experience.
+
 
 
 ---
