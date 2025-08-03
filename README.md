@@ -34,7 +34,7 @@
 ## 📖 About the Project <a name="about-project"></a>
 
 Welcome to my first professional portfolio!  
-This project showcases a **desktop-only responsive layout** using **HTML**, **CSS**, and basic **JavaScript**, aimed at creating a sleek, personal brand identity for a frontend developer. It's a clean foundation to grow with more interactive features in the future.
+This project showcases a **fully responsive layout** using **HTML**, **CSS**, and basic **JavaScript**, aimed at creating a sleek, personal brand identity for a frontend developer. It's a clean foundation to grow with more interactive features in the future.
 
 ---
 
