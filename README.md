@@ -4,7 +4,7 @@
   <img src="./77.png" alt="Portfolio Logo" width="140" height="auto" />
   <h1 align="center">Portfolio</h1>
   <p align="center">
-    A modern and responsive developer portfolio built with HTML, CSS, and JavaScript.
+   A sleek, modern, and fully responsive developer portfolio crafted using HTML, CSS, and JavaScript.
   </p>
 </div>
 
@@ -113,8 +113,6 @@ To run the project:
   **OR**
 - Use the Live Server extension in VS Code for better development experience.
 
-
-
 ---
 
 ### 🚢 Deployment <a name="deployment"></a>
@@ -169,7 +167,6 @@ If you like this project, consider:
 - Following me on GitHub
 - Reporting issues or suggesting features
 - Helping with documentation improvements
-
 
 ---
 
